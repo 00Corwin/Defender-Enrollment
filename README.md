@@ -6,18 +6,6 @@ This repository consolidates the recovered Defender, Intune and Microsoft Graph 
 
 > **Important:** These scripts perform administrative changes to Defender, Intune and Microsoft Graph. Test in a non-production scope first, use `-WhatIf` where provided and review every permission before granting admin consent.
 
-
-## Create a new GitHub repository
-
-This package is intentionally independent of any previous Git repository. On ParrotOS, authenticate `gh`, extract the package, then run:
-
-```bash
-chmod +x ./create-new-github-repo.sh
-./create-new-github-repo.sh public
-```
-
-Use `private` instead of `public` if required. See [CREATE_NEW_GITHUB_REPO.md](CREATE_NEW_GITHUB_REPO.md) for the full process.
-
 ## What is included
 
 | Area | Script | Purpose | Origin |
