@@ -1,0 +1,4 @@
+Hostname,Tier
+srv-prod-db01,Tier0
+srv-app-01,Tier2
+srv-dev-01,Tier5
